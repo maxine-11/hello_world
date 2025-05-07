@@ -18,7 +18,7 @@ int main()
 		if(a[(i+k)%n]==a[(j+k)%n])++k;
 		else {
 			
-			if(a[(i+k)%n]>a[(j+k)%n])i=i+k+1;//S[i+k]>S[j+k]S[i+k]>S[j+k]£¬ÄÇÃ´£¬²»ÄÑ·¢ÏÖ£¬¶ÔÓÚÈÎÒâÒ»¸öÆðÊ¼Î»ÖÃ ll Âú×ã i¡Ül¡Üi+ki¡Ül¡Üi+k µÄ×Ö·û´® A¡äA¡ä£¬Ò»¶¨´æÔÚÒ»¸ö¶ÔÓ¦µÄ B¡äB¡ä £¬ÆðÊ¼Î»ÖÃ rr Âú×ã j¡Ür¡Üj+kj¡Ür¡Üj+k£¬B¡äB¡ä µÄ×ÖµäÐòÐ¡ÓÚ A¡äA¡ä µÄ×ÖµäÐò£¬¿ÉÒÔÖ±½ÓÌø¹ý [i+1,i+k][i+1,i+k] ÕâÒ»¶ÎÇø¼ä£¬Ö±½Ó´Ó i+k+1i+k+1 ¿ªÊ¼ÐÂµÄ±È½Ï¡£ 
+			if(a[(i+k)%n]>a[(j+k)%n])i=i+k+1;//S[i+k]>S[j+k]S[i+k]>S[j+k]ï¼Œå¯¹äºŽä»»æ„ä¸€ä¸ªèµ·å§‹ä½ç½® ll æ»¡è¶³ iâ‰¤lâ‰¤i+kiâ‰¤lâ‰¤i+k çš„å­—ç¬¦ä¸² Aâ€²Aâ€²ï¼Œä¸€å®šå­˜åœ¨ä¸€ä¸ªå¯¹åº”çš„ Bâ€²Bâ€² ï¼Œèµ·å§‹ä½ç½® rr æ»¡è¶³ jâ‰¤râ‰¤j+kjâ‰¤râ‰¤j+kï¼ŒBâ€²Bâ€² çš„å­—å…¸åºå°äºŽ Aâ€²Aâ€² çš„å­—å…¸åºï¼Œå¯ä»¥ç›´æŽ¥è·³è¿‡ [i+1,i+k][i+1,i+k] è¿™ä¸€æ®µåŒºé—´ï¼Œç›´æŽ¥ä»Ž i+k+1i+k+1 å¼€å§‹æ–°çš„æ¯”è¾ƒã€‚ 
 			else j=j+k+1;k=0;
 			if(i==j)++i;
 		}
